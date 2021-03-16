@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(130, 163, 110);
+}
+.divFontClass{
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(185, 114, 21);
+}
+
+#h1{
+    color: green;
+}
+
+#t{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 45%;
+    border:2px solid rgb(33, 30, 210);
+    
+}
+td{
+    border: 5px solid rgb(69, 30, 210);
+}
+
+
