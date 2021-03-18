@@ -1,0 +1,46 @@
+body{
+    border-image-width: 100%;
+    margin: 30px;
+}
+.heading{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(24, 15, 2);
+}
+.nav-item{
+   padding-left: 20px;
+   padding-right: 20px;
+   text-decoration-color: rgb(26, 3, 3);
+}
+.col{
+    text-align: center;
+}
+.label{
+    color: rgb(22, 9, 4);
+}
+.button{
+    margin-left: 560px;
+}
+.my-blog{
+    margin: 150px;
+    display: flex;
+}
+
+.my-blog .row.col-md-4 {
+    margin: 5px;
+}
+
+.blog{
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+.blog .img{
+    width: auto;
+}
+.read-more{
+    float: right;
+    font-size: 12px;
+    margin-right: 20px;
+}
