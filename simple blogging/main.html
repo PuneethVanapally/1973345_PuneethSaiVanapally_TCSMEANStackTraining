@@ -64,18 +64,12 @@
     </div>
 
     <div id="blog" class="my-blog">
-        <!-- <div class="row col-md-4">
-                <div class="blog">
-                    <h2>Title</h2>
-                    <p>Article</p>
-                    <img src="https://media.newyorker.com/photos/59ee325f1685003c9c28c4ad/master/w_2560%2Cc_limit/Heller-Kirkus-Reviews.jpg" alt="">
-                </div>
-        </div> -->
+        
     </div>
 
     <script>
         details = JSON.parse(sessionStorage.getItem('detail')) || [];
-        // details = [{title: 'Good Book', article: 'its a very good book', img: 'https://media.newyorker.com/photos/59ee325f1685003c9c28c4ad/master/w_2560%2Cc_limit/Heller-Kirkus-Reviews.jpg'}];
+        
         var parentDiv = document.getElementById("blog");
 
         for(i=0; i<details.length; i++)
