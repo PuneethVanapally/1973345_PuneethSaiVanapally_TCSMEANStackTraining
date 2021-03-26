@@ -1,0 +1,26 @@
+<div fxLayoutAlign="center center" fxFlexFill class="main-div"> 
+    <mat-card fxFlex="30">
+        <mat-toolbar color="primary">Registration Form</mat-toolbar>
+        <form fxLayoutAlign="stretch" fxLayout="column" class="register-form">
+            <mat-form-field>
+              <mat-label>Firstname</mat-label>
+              <input matInput placeholder="Firstname" >
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Lastname</mat-label>
+                <input matInput placeholder="Lastname" >
+              </mat-form-field>
+              <mat-form-field>
+                <mat-label>Username</mat-label>
+                <input matInput placeholder="username" [(ngModel)]="userName" [ngModelOptions]="{standalone: true}">
+              </mat-form-field>
+          
+            <mat-form-field>
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="Password" type="password" [(ngModel)]="passWord" [ngModelOptions]="{standalone: true}">
+              </mat-form-field>
+              <button mat--raise-button type="submit" class="reg-button" (click)="clickMe()">Register</button>
+              <button mat-raise-button class="sign-button" type="reset">Reset</button>
+          </form>
+    </mat-card>
+</div>
