@@ -1,7 +1,7 @@
 <div fxLayoutAlign="center center" fxFlexFill class="div"> 
     <mat-card fxFlex="35" class="mat">
         <mat-toolbar class="mat">My Portfolio</mat-toolbar>
-        <p>Welcome Puneeth</p>
+        <p>Welcome Prudhvi</p>
         <form fxLayoutAlign="stretch" fxLayout="column" class="Contact-form">
             <label for="" class="cname">Contact Name</label>
             <input type="text" [(ngModel)]="contact" [ngModelOptions]="{standalone: true}">
@@ -10,15 +10,11 @@
             <button mat-raise-button type="submit" class="button1" (click)="clickMe()">Save</button>
             
             <table style="width:100%">
-              <tr>
-                <th>Contact</th>
-                <th>Number</th>
+              <tr *ngFor = "let detail of details">
+                <th>{{detail.contact}}</th>
+                <th>{{detail.number}}</th>
               </tr>
               
-              <tr>
-                <td>{{contact1}}</td>
-                <td>{{number1}}</td>
-              </tr>
             </table>
 
           </form>

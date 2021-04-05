@@ -1,10 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-export interface ContactDetails {
-  name: string;
-  phone: number;
-}
-
 
 @Component({
   selector: 'app-portf',
@@ -14,11 +9,7 @@ export interface ContactDetails {
 export class PortfComponent implements OnInit {
   
 
-  contact : any;
-  number : any;
-
-  contact1 : any;
-  number1: any;
+  details = [{contact:'123', number: '123'}];
 
   constructor() {
     
@@ -28,8 +19,6 @@ export class PortfComponent implements OnInit {
   }
 
   clickMe(){
-   this.contact1= this.contact;
-   this.number1=this.number;
     
   }
 
