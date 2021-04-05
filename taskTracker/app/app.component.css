@@ -1,0 +1,53 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/f1/f8/df/f1f8dfcde6e2d6522a24e8e29a97daa1.jpg");
+    margin-top: 0%;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(243, 14, 14);
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(46, 13, 228);
+    font-size: 30px;
+}
+
+.tasks{
+    text-align: center;
+}
+
+label{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+}
+
+input{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+table, th, td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
